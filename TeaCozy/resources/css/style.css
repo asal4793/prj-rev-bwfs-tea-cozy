@@ -1,0 +1,152 @@
+* {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+.logo {
+  display: flex;
+  flex: auto;
+  padding-left: 10px;
+  height: 50px;
+}
+/*Not sure how to center properly here without top padding*/
+.topnav {
+  padding-top: 15px;
+}
+.navitem {
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+
+.bodysection {
+  top: 62px;
+  position:relative;
+  z-index: 5;
+}
+#mission {
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.missionsection{
+ width: 100%;
+}
+h2#missionheader {
+  margin-top: 10px;
+}
+h4#mission-description {
+  margin-bottom: 10px;
+}
+
+
+#featuredtea {
+  width: 1000px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#fallberryblitz {
+  height: 200px;
+  width: 300px;
+  padding-right: 25px;
+}
+#spicedrum {
+  height: 200px;
+  width: 300px;
+  padding-right: 25px;
+}
+#seasonaldonuts {
+  height: 200px;
+  width: 300px;
+  padding-right: 25px;
+}
+#myrtleave {
+  height: 200px;
+  width: 300px;
+  padding-right: 25px;
+}
+#bedfordbizarre {
+  height: 200px;
+  width: 300px;
+  padding-right: 25px;
+}
+.teas h4 {
+  margin-top: 10px;
+}
+h5 {
+  font-size: 12px;
+}
+h4 {
+  font-size: 16px;
+}
+h2 {
+  font-size: 25px;
+}
+
+
+#locations {
+  background-image:url("C:/Projects/TeaCozy/resources/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+
+}
+
+.location {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+div.different-locations {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+
+
+
+
+
+.footer {
+  top: 60px;
+  position:relative;
+}
+
+.footerheaders {
+  height: 200px;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
